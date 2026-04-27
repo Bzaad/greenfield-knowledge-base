@@ -16,8 +16,6 @@ public class ArticleServiceTests : IDisposable
 
     public ArticleServiceTests()
     {
-        // A single open connection keeps the in-memory SQLite database alive across
-        // multiple DbContext instances within the same test.
         _connection = new SqliteConnection("DataSource=:memory:");
         _connection.Open();
 
