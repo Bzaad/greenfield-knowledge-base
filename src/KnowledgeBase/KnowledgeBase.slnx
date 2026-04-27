@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="KnowledgeBase.Api/KnowledgeBase.Api.csproj" />
+  <Project Path="KnowledgeBase.Tests/KnowledgeBase.Tests.csproj" />
+</Solution>
